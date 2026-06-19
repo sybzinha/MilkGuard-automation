@@ -1,0 +1,43 @@
+================================================================================
+MANUAL OPERACIONAL DE COMPLIANCE E QUALIDADE LÁCTEA - COOPERATIVA MILKGUARD
+Documento Técnico de Referência para Produtores e Logística (Versão 2026.1)
+================================================================================
+
+1. PROTOCOLO DE CONFORMIDADE TÉRMICA 
+--------------------------------------------------------------------------------
+A temperatura é o indicador crítico primário para a autorização do carregamento logístico. O resfriamento inadequado acelera a proliferação microbiana, comprometendo a integridade de toda a carga do caminhão-tanque (bacia coletora).
+
+1.1. Parâmetro Crítico de Temperatura:
+* Temperatura Ideal de Conservação: Entre 1.0°C e 4.0°C.
+* Margem de Tolerância Técnica: Até 4.5°C por no máximo 2 horas após a ordenha.
+* Limite Máximo Absoluto para Coleta: 4.0°C (leituras acima deste valor disparam o bloqueio automatizado do sistema MilkGuard).
+
+1.2. Ações de Bloqueio Automático (Regra de Negócio):
+Se o sensor (ou comando simulado) registrar uma leitura superior a 4.0°C:
+1. O status do produtor é alterado para "Bloqueado" no banco de dados.
+2. A ordem de coleta logística na propriedade é suspensa preventivamente.
+3. Um alerta de risco imediato é enviado via Telegram ao produtor e à central de qualidade.
+
+--------------------------------------------------------------------------------
+2. GUIA DE MANEJO, HIGIENE E SANIDADE 
+--------------------------------------------------------------------------------
+Este capítulo serve como base de conhecimento para o assistente virtual responder dúvidas operacionais e de manejo do produtor em tempo real.
+
+2.1. Controle de Acidez e Instabilidade no Alizarol:
+* O que é: O teste do alizarol simula a estabilidade térmica do leite no processo industrial. O leite conforme deve apresentar coloração "tijolo" (estável).
+* Sintoma de Instabilidade (Leite Ácido / Coloração Amarelada): Indica alta contagem bacteriana ou desbalanço nutricional (Leite Instável Não Ácido - LINA).
+* Ações Corretivas para Acidez Instável:
+  1. Revisar imediatamente o balanço de volumoso e concentrado na dieta das vacas (evitar excesso de amido/grãos).
+  2. Verificar se o resfriador não desligou ou demorou mais de 3 horas para atingir 4.0°C.
+  3. Reforçar a higienização com detergente alcalino clorado em todos os equipamentos de ordenha após o uso.
+
+2.2. Prevenção de Mastite e Redução da CBT (Contagem Bacteriana Total):
+* Protocolo de Ordenha Higiênica (Passo a Passo):
+  1. Pré-dipping: Imersão dos tetos em solução desinfetante apropriada (à base de iodo ou cloro) por 30 segundos antes da ordenha para eliminar bactérias ambientais.
+  2. Secagem: Uso obrigatório de papel toalha descartável (uma folha por teto, nunca reutilizar).
+  3. Pós-dipping: Imersão em solução selante pós-ordenha para proteger o canal do teto que permanece aberto por até 30 minutos.
+* Manejo de Animais Suspeitos: Vacas com mastite clínica ou em tratamento com antibióticos devem ser ordenhadas por último. O leite com resíduo de antibiótico NUNCA deve ser enviado à cooperativa, sob pena de descarte de toda a carga industrial e penalidades legais.
+
+2.3. Limpeza do Sistema de Resfriamento e Tarros:
+* Diariamente: Lavagem com água morna (45°C) para retirar resíduos grossos, seguida de circulação de detergente alcalino (específico para leite) a 70°C para remover gorduras e proteínas.
+* Três vezes por semana: Lavagem com detergente ácido para remoção de minerais ("pedra de leite") que se acumulam nas paredes de aço inox.
