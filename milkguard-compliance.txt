@@ -1,43 +1,80 @@
 ================================================================================
-MANUAL OPERACIONAL DE COMPLIANCE E QUALIDADE LÁCTEA - COOPERATIVA MILKGUARD
-Documento Técnico de Referência para Produtores e Logística (Versão 2026.1)
+MANUAL OPERACIONAL DE COMPLIANCE, QUALIDADE E LOGÍSTICA LÁCTEA - MILKGUARD
+Diretrizes Técnicas de Campo, Coleta Granel e Gestão de Risco (Versão 2026.2)
 ================================================================================
 
-1. PROTOCOLO DE CONFORMIDADE TÉRMICA 
+1. PROTOCOLO DE CONFORMIDADE TÉRMICA E CONTROLE DE QUALIDADE
 --------------------------------------------------------------------------------
 A temperatura é o indicador crítico primário para a autorização do carregamento logístico. O resfriamento inadequado acelera a proliferação microbiana, comprometendo a integridade de toda a carga do caminhão-tanque (bacia coletora).
 
-1.1. Parâmetro Crítico de Temperatura:
+1.1. Parâmetros Críticos de Temperatura:
 * Temperatura Ideal de Conservação: Entre 1.0°C e 4.0°C.
 * Margem de Tolerância Técnica: Até 4.5°C por no máximo 2 horas após a ordenha.
-* Limite Máximo Absoluto para Coleta: 4.0°C (leituras acima deste valor disparam o bloqueio automatizado do sistema MilkGuard).
+* Limite Máximo Absoluto para Coleta: 4.0°C (leituras acima deste valor disparam o bloqueio de segurança no sistema operacional MilkGuard).
 
-1.2. Ações de Bloqueio Automático (Regra de Negócio):
-Se o sensor (ou comando simulado) registrar uma leitura superior a 4.0°C:
-1. O status do produtor é alterado para "Bloqueado" no banco de dados.
-2. A ordem de coleta logística na propriedade é suspensa preventivamente.
-3. Um alerta de risco imediato é enviado via Telegram ao produtor e à central de qualidade.
+1.2. Diretrizes de Bloqueio e Segurança Alimentar:
+Se o monitoramento registrar uma leitura superior a 4.0°C:
+1. O status cadastral do produtor é alterado imediatamente para "Suspenso/Bloqueado".
+2. A ordem de coleta logística na propriedade é cancelada na programação diária.
+3. Um alerta de risco imediato é emitido via canal oficial de comunicação (Telegram) ao produtor e à central de gerenciamento de risco.
+
+1.3. Protocolo de Liberação e Re-auditoria:
+Caso a propriedade esteja com a coleta suspensa, o produtor poderá solicitar uma nova vistoria digital (re-auditoria térmica) assim que o funcionamento do resfriador for reestabelecido. 
+* O sistema reverterá o status para "Aprovado" apenas se uma nova aferição válida abaixo de 4.0°C for confirmada antes do horário limite de saída das frotas da central.
 
 --------------------------------------------------------------------------------
-2. GUIA DE MANEJO, HIGIENE E SANIDADE 
+2. PROTOCOLO DE LOGÍSTICA DE COLETA E ROTEIRIZAÇÃO
 --------------------------------------------------------------------------------
-Este capítulo serve como base de conhecimento para o assistente virtual responder dúvidas operacionais e de manejo do produtor em tempo real.
+A eficiência da logística láctea depende do cumprimento estrito das janelas de coleta para garantir o processamento industrial dentro do prazo regulamentar.
 
-2.1. Controle de Acidez e Instabilidade no Alizarol:
-* O que é: O teste do alizarol simula a estabilidade térmica do leite no processo industrial. O leite conforme deve apresentar coloração "tijolo" (estável).
-* Sintoma de Instabilidade (Leite Ácido / Coloração Amarelada): Indica alta contagem bacteriana ou desbalanço nutricional (Leite Instável Não Ácido - LINA).
+2.1. Janelas de Coleta e Rotação:
+* Frequência Padrão: A coleta nas propriedades ocorre em regime de dias alternados (48 em 48 horas) para otimizar o transporte e respeitar a capacidade dos tanques de expansão.
+* Turno Matutino (Rota A): Das 05:00 às 11:00. Focado em produtores de alta escala.
+* Turno Vespertino (Rota B): Das 13:00 às 18:30. Focado em produtores de média e pequena escala.
+
+2.2. Diretrizes para o Transportador/Motorista no Local:
+Ao chegar na propriedade, o motorista do caminhão-coletor deve seguir o seguinte protocolo de conformidade antes de acionar a bomba de sucção:
+1. Inspeção Visual: Verificar a presença de gelo, separação de fases ou sujidades flutuantes no tanque.
+2. Coleta de Amostra de Contraprova: Coletar 200ml de leite em frasco estéril identificado para análise laboratorial posterior (CBT, CCS e resíduos de antibióticos). O frasco deve ser guardado na caixa térmica do caminhão entre 1.0°C e 4.0°C.
+3. Medição de Volume: Registrar a régua de milimetragem do tanque para cálculo do volume total (em litros) antes da transferência.
+4. Teste do Alizarol 72%: Realizar o teste rápido de estabilidade térmica na plataforma. Se o leite coagular ou apresentar coloração ácida (amarelada), o motorista deve abortar a coleta imediatamente e reportar ao sistema central.
+
+2.3. Penalidades por Quebra de Rota ou Contaminação:
+Se um produtor for coletado sem a devida liberação de conformidade e vir a comprometer a carga do caminhão-tanque com leite fora dos padrões:
+* O produtor infrator arcará com o custo total do descarte do volume integral do caminhão (prejuízo por mistura de bacia).
+* Suspensão imediata do fornecimento por 15 dias para auditoria técnica presencial da equipe de campo.
+
+--------------------------------------------------------------------------------
+3. GUIA DE MANEJO, HIGIENE E SANIDADE (CENTRAL DE AJUDA AO PRODUTOR)
+--------------------------------------------------------------------------------
+Este capítulo serve como base de orientação técnica para que os produtores tirem dúvidas operacionais e de manejo em tempo real com a assistência virtual.
+
+3.1. Controle de Acidez e Instabilidade no Alizarol:
+* O que é: O teste do alizarol simula a estabilidade térmica do leite no processo industrial de pasteurização ou UHT. O leite em conformidade deve apresentar coloração "tijolo" (estável, sem grumos).
+* Sintoma de Instabilidade (Leite Ácido / Coloração Amarelada): Indica alta contagem bacteriana decorrente de falha de resfriamento ou o fenômeno LINA (Leite Instável Não Ácido), causado por estresse calórico ou severo desbalanço nutricional.
 * Ações Corretivas para Acidez Instável:
-  1. Revisar imediatamente o balanço de volumoso e concentrado na dieta das vacas (evitar excesso de amido/grãos).
-  2. Verificar se o resfriador não desligou ou demorou mais de 3 horas para atingir 4.0°C.
-  3. Reforçar a higienização com detergente alcalino clorado em todos os equipamentos de ordenha após o uso.
+  1. Revisar imediatamente a relação volumoso/concentrado na dieta (evitar excesso de amido ou silagem excessivamente ácida).
+  2. Adicionar tamponantes (bicarbonato de sódio) na dieta do rebanho, sob orientação do departamento técnico da cooperativa.
+  3. Certificar-se de que o leite atingiu a temperatura de 4.0°C em no máximo 3 horas após o término da ordenha.
 
-2.2. Prevenção de Mastite e Redução da CBT (Contagem Bacteriana Total):
-* Protocolo de Ordenha Higiênica (Passo a Passo):
-  1. Pré-dipping: Imersão dos tetos em solução desinfetante apropriada (à base de iodo ou cloro) por 30 segundos antes da ordenha para eliminar bactérias ambientais.
-  2. Secagem: Uso obrigatório de papel toalha descartável (uma folha por teto, nunca reutilizar).
-  3. Pós-dipping: Imersão em solução selante pós-ordenha para proteger o canal do teto que permanece aberto por até 30 minutos.
-* Manejo de Animais Suspeitos: Vacas com mastite clínica ou em tratamento com antibióticos devem ser ordenhadas por último. O leite com resíduo de antibiótico NUNCA deve ser enviado à cooperativa, sob pena de descarte de toda a carga industrial e penalidades legais.
+3.2. Prevenção de Mastite e Redução da CBT (Contagem Bacteriana Total):
+A contagem bacteriana alta reflete diretamente a falta de higiene nos processos de ordenha ou manutenção dos equipamentos.
+* Protocolo de Ordenha Higiênica em Três Etapas:
+  1. Pré-dipping: Imersão total dos tetos em solução antisséptica de ação rápida (iodo a 0,5% ou cloro) por 30 segundos. Remove a carga microbiana da pele antes do contato com as teteiras.
+  2. Secagem: Uso obrigatório de papel toalha descartável e de alta absorção. Utilizar uma folha por teto. É proibido o uso de panos de tecido (vetores de contaminação cruzada).
+  3. Pós-dipping: Imersão dos tetos em solução formadora de película selante (iodo glicorinado a 1%) pós-ordenha. Protege o esfíncter do teto que permanece aberto por até 30 minutos após a extração do leite.
 
-2.3. Limpeza do Sistema de Resfriamento e Tarros:
-* Diariamente: Lavagem com água morna (45°C) para retirar resíduos grossos, seguida de circulação de detergente alcalino (específico para leite) a 70°C para remover gorduras e proteínas.
-* Três vezes por semana: Lavagem com detergente ácido para remoção de minerais ("pedra de leite") que se acumulam nas paredes de aço inox.
+3.3. Manejo de Animais em Tratamento Sanitário (Uso de Antibióticos):
+* Animais diagnosticados com mastite clínica ou sob tratamento com antimicrobianos devem ser rigorosamente identificados (uso de fitas coloridas na pata ou cauda).
+* A ordenha desses animais deve ser feita por último, separada do lote geral.
+* O leite desses animais deve ser descartado e NUNCA inserido no tanque de expansão comunitário ou individual da propriedade. A presença de resíduos de antibióticos inibe o crescimento de culturas lácteas na indústria (produção de queijos e iogurtes) e viola as leis de saúde pública.
+
+3.4. Protocolo de Higienização CIP (Clean-in-Place) do Sistema de Canalização e Tanques:
+A limpeza deve ser realizada imediatamente após o esvaziamento do tanque pelo caminhão-coletor:
+1. Enxágue Inicial: Circulação de água limpa à temperatura ambiente para remoção do excesso de leite.
+2. Lavagem Alcalina Clorada: Circulação de solução com detergente alcalino clorado (pH > 11) a uma temperatura inicial de 65°C a 70°C por 10 a 15 minutos. Essencial para a quebra de gorduras e proteínas. O enxágue deve ser feito antes que a água caia abaixo de 40°C para evitar a re-deposição da gordura.
+3. Lavagem Ácida: Realizada de 2 a 3 vezes por semana com detergente ácido (pH < 3) para dissolver e remover minerais acumulados, conhecidos como "pedra de leite".
+
+================================================================================
+FIM DO MANUAL OPERACIONAL - COOPERATIVA MILKGUARD
+================================================================================
