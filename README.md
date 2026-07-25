@@ -1,5 +1,7 @@
 # MilkGuard
 
+![MilkGuard](https://img.shields.io/badge/MilkGuard-Cow%20Monitoring-FFF?style=for-the-badge&labelColor=1a1a2e&color=f0c040)
+
 Sistema de monitoramento de conformidade térmica para cooperativas de leite, com chatbot RAG no Telegram e dashboard em tempo real.
 
 ![MilkGuard Banner](/prints/demo-dash.gif)
