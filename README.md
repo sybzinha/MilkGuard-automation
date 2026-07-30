@@ -299,4 +299,3 @@ milkguard/
 ---
 
 <p align="center">Desenvolvido com ❤️ por <a href="https://github.com/sybzinha">sybzinha</a></p>
->>>>>>> 722a7f4 (feat: MilkGuard dashboard - React + Vite + Tailwind)
